@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="status">Student Status: </string>
+    <string name="ad">Data Access</string>
+    <string name="di">UI Design</string>
+    <string name="pw">Web Design</string>
+    <string name="e">Business</string>
+    <string name="evaluate">Evaluate</string>
+    <string name="aprobado">Passed</string>
+    <string name="suspenso">Suspense</string>
+
+</resources>

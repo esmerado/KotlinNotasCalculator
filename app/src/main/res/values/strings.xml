@@ -6,4 +6,6 @@
     <string name="pw">Programación web</string>
     <string name="e">Empresa</string>
     <string name="evaluate">Evaluar</string>
+    <string name="aprobado">Aprobado</string>
+    <string name="suspenso">Suspenso</string>
 </resources>
