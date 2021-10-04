@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MediaCalculator</string>
+    <string name="status">Estado del alumno: </string>
+    <string name="ad">Acceso a datos</string>
+    <string name="di">Desarrollo de interfaces</string>
+    <string name="pw">Programación web</string>
+    <string name="e">Empresa</string>
+    <string name="evaluate">Evaluar</string>
+</resources>

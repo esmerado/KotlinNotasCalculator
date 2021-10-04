@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:text="@string/status" />
+
+        <TextView
+            android:id="@+id/tvInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/TextViewTitle"
+            android:layout_alignBottom="@+id/TextViewTitle"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/TextViewTitle"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/etAD"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextViewTitle"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:hint="@string/ad" />
+
+        <EditText
+            android:id="@+id/etDI"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etAD"
+            android:hint="@string/di"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/etPW"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etDI"
+            android:hint="@string/pw"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/etE"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPW"
+            android:hint="@string/e"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:inputType="number"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCalculate"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etE"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:hint="@string/evaluate"
+            android:background="@color/purple_200"
+            />
+
+
+
+
+    </RelativeLayout>
+</layout>
