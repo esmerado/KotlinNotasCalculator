@@ -1,5 +1,6 @@
 package com.example.mediacalculator
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -28,10 +29,10 @@ class MainActivity : AppCompatActivity() {
 
             if (media >= 5){
                 showResult.setText("APROBADO")
+                showResult.setTextColor(Color.parseColor("#4CAF50"))
             } else if (media < 5 && media >= 0) {
                 showResult.setText("SUSPENSO")
-            } else {
-                Toast.makeText(this, "El resultado de la media no puede ser negativo!!", Toast.LENGTH_SHORT).show()
+                showResult.setTextColor(Color.parseColor("#FF0000"))
             }
 
         }
